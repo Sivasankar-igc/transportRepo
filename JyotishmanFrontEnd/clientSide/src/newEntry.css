@@ -1,0 +1,204 @@
+.transportEntry{
+    position: absolute;
+    width: 100%;
+    height:100%;
+    text-align: center;
+    font-size:10pt;
+    border: 2px solid black;
+    background: linear-gradient(to top, lime, 20%, cyan);
+}
+
+.transportEntry input{
+    width: 25%;
+    height:6%;
+    border-top:none;
+    border-bottom: 2px solid black;
+    border-radius:20px;
+    text-align: center;
+    margin-bottom:2%;
+    font-size:100%;
+    font-family:'Courier New', Courier, monospace;
+    transition:all .2s ease;
+}
+.transportEntry input:hover{
+    transform: scale(.96);
+}
+.transportEntry #bill_no{
+    margin-top:5%;
+}
+.transportEntry button{
+    width:15%;
+    height:5%;
+    border-radius:20px;
+    cursor:pointer;
+    position:absolute;
+    left:45%;
+    margin-top:1.2%;
+    color:white;
+    box-sizing:border-box;
+    background-color:black;
+    transition: all .2s ease;
+}
+.transportEntry button:hover{
+    color:aqua;
+    transform:scale(.96);
+    box-shadow:0px 2px 2px aqua;
+}
+.transportEntry input:focus{
+    font-size:150%;
+}
+
+/*LABEL DESIGN*/
+.transportEntry label{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.transportEntry label:nth-child(1){
+    margin-left:-2.3%;
+}
+.transportEntry label:nth-child(7){
+    margin-left:-.7%;
+}
+.transportEntry label:nth-child(10){
+    margin-left:-2.3%;
+}
+.transportEntry label:nth-child(13){
+    margin-left:-2.4%;
+}
+.transportEntry label:nth-child(16){
+    margin-left:-4.7%;
+}
+.transportEntry label:nth-child(19){
+    margin-left:-3%;
+}
+
+/*INPUT DESIGN*/
+.transportEntry input:nth-child(2){
+    position:relative;
+    left:2.5%;
+}
+.transportEntry input:nth-child(5){
+    position:relative;
+    left:.4%;
+}
+.transportEntry input:nth-child(8){
+    position:relative;
+    left:.8%;
+}
+.transportEntry input:nth-child(11){
+    position:relative;
+    left:2.2%;
+}
+.transportEntry input:nth-child(14){
+    position:relative;
+    left:2.1%;
+}
+.transportEntry input:nth-child(17){
+    position:relative;
+    left:4.5%;
+}
+.transportEntry input:nth-child(20){
+    position:relative;
+    left:2.6%;
+}
+
+
+
+
+
+/*FUEL ENTRY CSS*/
+.fuelEntry{
+    position: absolute;
+    width: 100%;
+    height:100%;
+    text-align: center;
+    font-size:10pt;
+    border: 2px solid black;
+    background: linear-gradient(to top, lime, 20%, cyan);
+}
+
+.fuelEntry input{
+    width: 25%;
+    height:6%;
+    border-top:none;
+    border-bottom: 2px solid black;
+    border-radius:20px;
+    text-align: center;
+    margin-bottom:2%;
+    font-size:100%;
+    font-family:'Courier New', Courier, monospace;
+    transition:all .2s ease;
+}
+.fuelEntry input:hover{
+    transform: scale(.96);
+}
+.fuelEntry button{
+    width:15%;
+    height:5%;
+    border-radius:20px;
+    cursor:pointer;
+    position:absolute;
+    left:46%;
+    margin-top:6.2%;
+    color:white;
+    box-sizing:border-box;
+    background-color:black;
+    transition: all .2s ease;
+}
+.fuelEntry button:hover{
+    color:aqua;
+    transform:scale(.96);
+    box-shadow:0px 2px 2px aqua;
+}
+.fuelEntry input:focus{
+    font-size:150%;
+}
+
+/*LABEL DESIGN*/
+.fuelEntry label{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.fuelEntry label:nth-child(1){
+    margin-left:-.7%;
+}
+.fuelEntry label:nth-child(7){
+    margin-left:-.1%;
+}
+.fuelEntry label:nth-child(10){
+    margin-left:-2.2%;
+}
+.fuelEntry label:nth-child(13){
+    margin-left:-.5%;
+}
+.fuelEntry label:nth-child(16){
+    margin-left:.2%;
+}
+.fuelEntry label:nth-child(19){
+    margin-left:-3%;
+}
+
+/*INPUT DESIGN*/
+.fuelEntry input:nth-child(2){
+    position:relative;
+    left:2.1%;
+    margin-top:8%;
+}
+.fuelEntry input:nth-child(5){
+    position: relative;
+    left:1.5%;
+}
+.fuelEntry input:nth-child(8){
+    position:relative;
+    left:1.5%;
+}
+.fuelEntry input:nth-child(11){
+    position:relative;
+    left:3.8%;
+}
+.fuelEntry input:nth-child(14){
+    position:relative;
+    left: 2%;
+}
+.fuelEntry input:nth-child(17){
+    position:relative;
+    left:1.3%;
+}

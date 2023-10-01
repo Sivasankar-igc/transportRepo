@@ -1,0 +1,67 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+html{
+    font-size: 35%;
+    text-align: center;
+}
+
+/*TRANSPORT TABLE CSS*/
+.transportTable{
+    margin: 1% 1%;
+    border-radius: 2rem;
+    border:1rem hidden #443C68;
+    border-collapse: collapse;
+    box-shadow: 0 0 0 1px black;
+    overflow: hidden;
+}
+.transportTable thead{
+    font-size: 1.8rem;
+    background-color: #443C68;
+    color: #fff;
+}
+.transportTable tbody{
+    text-align: center;
+}
+.transportTable th, td{
+    border:1px solid #443C68;
+    min-width: 30rem;
+    padding: 1.5rem;
+    line-height: 1.7;
+}
+.transportTable td{
+    font-size: 2rem;
+}
+
+
+
+
+/*FUEL TABLE CSS*/
+.fuelTable{
+    margin: 1% 6.5%;
+    border-radius: 2rem;
+    border:1rem hidden #443C68;
+    border-collapse: collapse;
+    box-shadow: 0 0 0 1px black;
+    overflow: hidden;
+}
+.fuelTable thead{
+    font-size: 1.8rem;
+    background-color: #443C68;
+    color: #fff;
+}
+.fuelTable tbody{
+    text-align: center;
+}
+.fuelTable th, td{
+    border:1px solid #443C68;
+    min-width: 30rem;
+    padding: 1.5rem;
+    line-height: 1.7;
+}
+.fuelTable td{
+    font-size: 2rem;
+}
